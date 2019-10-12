@@ -1,0 +1,25 @@
+{
+  "name": "typescript-to-php",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "generate-php-from-typescript": "src/index.js"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test/index.js"
+  },
+  "keywords": [
+    "PHP",
+    "typescript",
+    "codegenerator"
+  ],
+  "author": "Josip Janzic <me@josip.dev>",
+  "license": "MIT",
+  "dependencies": {
+    "typescript-json-schema": "^0.40.0"
+  }
+}
